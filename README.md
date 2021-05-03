@@ -1,3 +1,5 @@
+I feel this would be enough to understand how to use react. Do contact me if you require any help
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
