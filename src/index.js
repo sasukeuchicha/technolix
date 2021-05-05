@@ -8,8 +8,10 @@ import 'bootstrap';
 //import '../node_modules/bootstrap/dist/js/bootstrap.js';
 
 ReactDOM.render(
+    <>
     <BrowserRouter>
         <App />
     </BrowserRouter>
+    </>
 ,document.getElementById("root")
 );

@@ -1,13 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
-const CellularMobileQuiz =() => {
+const TelecommunicationQuiz =() => {
     return(
         <>
             <section id ="header" className="d-flex align-items-center">
                 <div className="container-fluid nav_bg">
                     <div className="row">
-                        CellularMobileQuiz
+                        TeleQuiz
                 </div>
             </div>
             </section>
@@ -15,4 +15,4 @@ const CellularMobileQuiz =() => {
     )
 }
 
-export default CellularMobileQuiz
+export default TelecommunicationQuiz

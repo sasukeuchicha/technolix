@@ -62,27 +62,30 @@
   }
 .btn_events{
   font-weight: 1000;
-  max-width: 70%;
+  max-width: fit-content;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 5px 30px;
   border-radius: 10px;
   transition: 0.5s;
-  color: #5845c2;
-  border: 2px solid #5845c2;
+  color: #5c8bd1;
+  border: 2px solid #5c8bd1;
   text-decoration: none;
 
 }
 .btn_events:hover{
   color:#fff;
-  background: #5845c2;
+  background: #5c8bd1;
   }
 .background_home{
   background-image: url('./Images/background_home.jpg') ;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 #header {

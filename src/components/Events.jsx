@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-//import { BrowserRouter } from 'react-router-dom';
+import { NavLink, Route } from 'react-router-dom';
 import logo from '../Images/Logo Technolix.jpg'
+
 const Events =() => {
     return(
         <>
@@ -39,7 +39,7 @@ const Events =() => {
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Telecommunication Quiz</h5>
-                                    <NavLink className="nav-link" to= "/CellularMobileQuiz" className="btn_events">
+                                    <NavLink className="nav-link" to= "/TelecommunicationQuiz" className="btn_events">
                                         Know more
                                     </NavLink>
                                 </div>
