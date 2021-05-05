@@ -1,6 +1,7 @@
 .container {
   position: relative;
   width: 100%;
+  
 }
 
 .image {
@@ -39,7 +40,6 @@
 }
 
 .objective {
-  color: lightseagreen;
   font-weight: bolder;
 }
 

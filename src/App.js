@@ -8,8 +8,7 @@ import Contact from './components/Contact.jsx';
 import Navbar from './components/NavBar.jsx';
 import OtherClubs from './components/OtherClubs.jsx';
 import Events from './components/Events.jsx';
-import CellularMobileQuiz from "./components/Event Pages/CellularMobileQuiz.jsx" 
-import TelecommunicationQuiz from "./components/Event Pages/TelecommunicationQuiz.jsx"
+import Members from './components/Members.jsx';
 const App =() => {
     return(
         <>
@@ -20,8 +19,7 @@ const App =() => {
             <Route exact path = "/Events" component={Events} />
             <Route exact path = "/OtherClubs" component={OtherClubs} />
             <Route exact path = "/Contact" component={Contact} />
-            <Route exact path = "/CellularMobileQuiz" component={CellularMobileQuiz} />
-            <Route exact path = "/TelecommunicationQuiz" component={TelecommunicationQuiz} />
+            <Route exact path = "/Members" component={Members} />
             <Redirect to="/" />
         </Switch>
         </>

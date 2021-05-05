@@ -1,19 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink, Route } from 'react-router-dom';
+import Aos from "aos";
+import "aos/dist/aos.css"
 import logo from '../Images/Logo Technolix.jpg'
 
 const Events =() => {
+    useEffect(()=> {
+        Aos.init({duration: 3000});
+    }, []);
+
     return(
         <>
             <div className="my-5">
-                <h1 className="text-center">Our Events</h1>
+                <h1 className="text-center" data-aos="fade-left">Our Events</h1>
             </div>
             <div className ="container-fluid mb-5">
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className="row">
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Cellular Mobile Quiz</h5>
@@ -24,7 +30,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Quiz On Telecommunication System</h5>
@@ -35,7 +41,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left" >
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Telecommunication Quiz</h5>
@@ -46,7 +52,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Quiz On Global Positioning System</h5>
@@ -57,7 +63,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Webinar On How GPS Works</h5>
@@ -68,7 +74,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Python Quiz</h5>
@@ -79,7 +85,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" >
+                            <div className="card" data-aos="fade-left">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">IOT Workshop</h5>

@@ -11,7 +11,7 @@ const Home =() => {
                 <div className="container-fluid nav_bg">
                     <div className="row">
                         <div className="col-10 mx-auto">
-                            <div className="text-left">
+                            <div className="text-center">
                                 <h1>Welcome to <strong className="brand-name"> Technolix</strong></h1>
                                 <h2 className="mt-2">
                                     Turning Ideas into reality
