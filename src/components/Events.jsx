@@ -12,14 +12,14 @@ const Events =() => {
     return(
         <>
             <div className="my-5">
-                <h1 className="text-center" data-aos="fade-left">Our Events</h1>
+                <h1 className="text-center" data-aos="fade-up">Our Events</h1>
             </div>
             <div className ="container-fluid mb-5">
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className="row">
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left">
+                            <div className="card" data-aos="fade-up">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Cellular Mobile Quiz</h5>
@@ -30,7 +30,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left">
+                            <div className="card" data-aos="fade-up">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Quiz On Telecommunication System</h5>
@@ -41,7 +41,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left" >
+                            <div className="card" data-aos="fade-up" >
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Telecommunication Quiz</h5>
@@ -52,7 +52,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left">
+                            <div className="card" data-aos="fade-up">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Quiz On Global Positioning System</h5>
@@ -63,7 +63,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left">
+                            <div className="card" data-aos="fade-up">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Webinar On How GPS Works</h5>
@@ -74,7 +74,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left">
+                            <div className="card" data-aos="fade-up">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Python Quiz</h5>
@@ -85,7 +85,7 @@ const Events =() => {
                             </div>
                         </div>
                         <div className="col-md-4 col-10 mx-auto">
-                            <div className="card" data-aos="fade-left">
+                            <div className="card" data-aos="fade-up">
                             <img src={logo} className="card-img-top" alt="Image" />
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">IOT Workshop</h5>
