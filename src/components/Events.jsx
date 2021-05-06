@@ -23,6 +23,7 @@ const Events =() => {
 
 return(
     <>
+
         <div className="my-5">
             <h1 className="text-center" data-aos="fade-up">Our Events</h1>
         </div>
@@ -30,7 +31,7 @@ return(
             <div className="row">
                 <div className="col-10 mx-auto">
                     <div className="row">
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={tower} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -41,7 +42,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={enc} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -52,7 +53,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up" >
                         <img src={Teleposter} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -63,7 +64,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={cp} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -74,7 +75,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={GPPos} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -85,7 +86,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={PQ} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -96,7 +97,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={II} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -107,7 +108,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={ja} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -118,7 +119,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={Ard} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -129,7 +130,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={bsn} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">
@@ -140,7 +141,7 @@ return(
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-10 mx-auto">
+                    <div className="col-md-4 col-10">
                         <div className="card" data-aos="fade-up">
                         <img src={quiz} className="card-img-top image_same" alt="Image" />
                             <div className="card-body">

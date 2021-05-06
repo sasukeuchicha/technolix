@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap';
 //import '../node_modules/bootstrap/dist/js/bootstrap.js';
 
+
+import tower from "./Images/Tower.jpg"
 ReactDOM.render(
     <>
     <BrowserRouter>
