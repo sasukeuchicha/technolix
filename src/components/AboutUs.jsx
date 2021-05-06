@@ -18,14 +18,14 @@ const AboutUs =() => {
                 <div className="row">
                 <div className="col-10 mx-auto">
                 <br></br>
-                    <h3 className="col-10 mx-auto objective"> Our Vision:</h3>
+                    <h3 className="col-10 mx-auto "> Our Vision:</h3>
                     <h5 className="col-9 mx-auto">
                         To provide a platform for budding engineers to turn their ideas into reality in the filed of
                         Telecommunication Engineering.
                     </h5>
                     <div className="row">
                         <div className="col-10 mx-auto">
-                        <h3 className="objective"><u>Technolix Mission :</u></h3>
+                        <h3 className=""><u>Technolix Mission :</u></h3>
                         <h5 className="mx-auto col-11">
                             The Technolix club was created as a non profit club which had helped many students since
                             its inception from 2013. We perform many activities regularly to nurture students and get them 
@@ -33,7 +33,7 @@ const AboutUs =() => {
                             current technologies. There will also be many sessions and activities held at campus. 
                             
                         </h5>
-                        <h1 className="mx-auto objective">Faculty coordinators</h1>
+                        <h1 className="mx-auto ">Faculty coordinators</h1>
 
                             <div className="d-flex">
                                 <div className="col-md-4 col-10">

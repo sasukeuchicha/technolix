@@ -18,13 +18,16 @@ return(
                         <NavLink className="nav-link" exact aria-current="page" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link" to="/Events">Events</NavLink>
+                        <NavLink className="nav-link" to="/HODMessage">Message From HOD</NavLink>
                         </li>
                         <li className="nav-item">
                         <NavLink className="nav-link" to="/AboutUs">About Us</NavLink>
                         </li>
                         <li className="nav-item">
-                        <NavLink className="nav-link" to="/Members">Members</NavLink>
+                        <NavLink className="nav-link" to="/Alumni">Alumni</NavLink>
+                        </li>
+                        <li className="nav-item">
+                        <NavLink className="nav-link" to="/Events">Events</NavLink>
                         </li>
                         <li className="nav-item">
                         <NavLink className="nav-link" to="/OtherClubs">Other Clubs</NavLink>

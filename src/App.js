@@ -8,7 +8,7 @@ import Contact from './components/Contact.jsx';
 import Navbar from './components/NavBar.jsx';
 import OtherClubs from './components/OtherClubs.jsx';
 import Events from './components/Events.jsx';
-import Members from './components/Members.jsx';
+import Alumni from './components/Alumni.jsx';
 import CellularMobileQuiz from "./components/Event Pages/CellularMobileQuiz.jsx" 
 import TelecommunicationQuiz from "./components/Event Pages/TelecommunicationQuiz.jsx"
 import Cryptography from './components/Event Pages/Cryptography.jsx';
@@ -20,6 +20,7 @@ import JSkills from './components/Event Pages/JSkills.jsx';
 import BSNL from './components/Event Pages/BSNL.jsx';
 import Arduino from './components/Event Pages/Arduino.jsx';
 import TeleSys from './components/Event Pages/TeleSys.jsx';
+import HodMessage from './components/HodMessage.jsx'
 const App =() => {
     return(
         <>
@@ -30,7 +31,8 @@ const App =() => {
             <Route exact path = "/Events" component={Events} />
             <Route exact path = "/OtherClubs" component={OtherClubs} />
             <Route exact path = "/Contact" component={Contact} />
-            <Route exact path = "/Members" component={Members} />
+            <Route exact path = "/Alumni" component={Alumni} />
+            <Route exact path = "/HODMessage" component={HodMessage} />
             <Route exact path = "/CellularMobileQuiz" component={CellularMobileQuiz} />
             <Route exact path = "/Cryptography" component={Cryptography} />
             <Route exact path = "/TelecommunicationQuiz" component={TelecommunicationQuiz} />
