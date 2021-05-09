@@ -1,9 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 //import { BrowserRouter } from 'react-router-dom'
 import './Contact.css'
 import "../index.css"
-import AP from "../Images/AP.jpg"
+import AP from "../Images/AP.jpeg"
 import Gautham from "../Images/Gautham.jpg"
 import Jayanth from "../Images/Jayanth.jpg"
 
@@ -39,7 +38,7 @@ const Contact =() => {
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Gautham Krishna Kumar</h5>
                                     <p></p>
-                                    <NewlineText text={'Head Coordinator \n Mail: jgau17te@cmrit.ac.in \n Phone Number: +91 9611118236'} />
+                                    <NewlineText text={'Student Coordinator \n Mail: jgau17te@cmrit.ac.in \n Phone Number: +91 9611118236'} />
                                 </div>
                             </div>
                         </div>
@@ -49,7 +48,7 @@ const Contact =() => {
                                 <div className="card-body">
                                     <h5 className="card-title font-width-bolder contact_align">Jayanth K</h5>
                                     <p></p>
-                                    <NewlineText text={'Head Coordinator \n Mail: jaya17te@cmrit.ac.in \n Phone Number: +91 7619189825'} />
+                                    <NewlineText text={'Student Coordinator \n Mail: jaya17te@cmrit.ac.in \n Phone Number: +91 7619189825'} />
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 .navbar {
   position: relative !important;
   background-color: rgb(255, 255, 255) !important;
-  align-self: auto;
+  align-self: right;
 }
 
 
@@ -27,6 +27,7 @@
   color: #da1616 !important;
 }
 
+
 .menu_active {
   font-weight: bold;
   border-bottom: 1px solid #020214;
@@ -36,6 +37,7 @@
   .navbar-brand {
      font-size: 1.5rem !important;
   }
+  
   .menu_active {
     font-weight: bolder;
     border-bottom: none;
@@ -87,6 +89,20 @@
   height: 100vh;
 }
 
+.make-items-center{
+  transform: translateY(20%);
+}
+
+.background_hod_message{
+  background-image: url('./Images/bg_hod_message.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+
 #header {
   width: 100%;
   height: 80vh;
@@ -103,8 +119,21 @@ header h1{
 #header .brand-name{
   color: rgb(25, 43, 202);
 }
+.header-img{
+  text-align: left;
+}
+
 
 .image_same{
-  height: 40vh;
-  width: 0ch
+  aspect-ratio: 1.5;
+
+}
+.image_same2{
+  max-height: 70vh;
+}
+
+.message_img{
+  max-height: 50vh;
+  float:right;
+  
 }

@@ -20,6 +20,9 @@ const Cryptography =() => {
                              <h1>Cryptography</h1>
                          </center>
                      </div>
+                     <br></br>
+                     <br></br>
+                     <br></br>
                      <div className="row">
                          <div className="col-xs-12 col-10 mx-auto">
                             <h5> About Event </h5>

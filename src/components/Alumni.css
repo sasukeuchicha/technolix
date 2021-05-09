@@ -1,0 +1,14 @@
+.flashy-img {
+    border-radius: 800000000000px;
+    border-bottom-left-radius: 8000000px;
+    border-top-left-radius: 8000px;
+    border-bottom-right-radius: 8000px;
+    border-top-right-radius: 8000px;
+}
+
+.circ-img {
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+}
